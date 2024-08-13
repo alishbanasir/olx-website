@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+
+.fixed-top-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+}
+
+.header {
+  display: flex;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.content {
+  margin-top: 160px; /* Adjust this value based on the combined height of header and navbar */
+}
+
+
+.car{
+
+    background: linear-gradient(to top  , rgb(247, 246, 246) 10%, rgb(165, 165, 165)180%);
+    border-radius:50px;
+    
+}
+.building{
+    background: linear-gradient(to top  , rgb(247, 246, 246) 10%, rgb(165, 165, 165)180%);
+    border-radius:50px;
+    
+}
+
+   .inputbox1{
+    display: flex;
+    align-items: center;
+    width: 280px;
+    border: 2px solid black;
+    height: 45px;
+    border-radius: 5px;
+    margin-left: 20px;
+    color: black;
+    font-weight: bold;
+    font-size: 5%;
+   }
+   .inputbox1 input{
+    flex: 1;
+    border: none;
+    outline: 0;
+    background-color: transparent;
+    color: black;
+    font-weight: normal;
+    font-size: normal;
+    padding-left: 1px;
+   }
+   .inputbox2{
+    display: flex;
+    align-items:left ;
+    width: 500px;
+    border: 3px solid black;
+    height: 45px;
+    border-radius: 5px;
+    margin-left: 5px;
+   }
+   .inputbox2 input{
+    flex: 1;
+    border: none;
+    outline: 0;
+    background-color: transparent;
+    padding-left: 5px;
+   }
+   .bt{
+    border: 2px solid black;
+margin-left: 23%;
+   }
+   .login{
+    font-size: 23px;
+    font-weight: 600;
+    color: black;
+     text-decoration: none;
+     text-decoration: underline;
+     margin-left: 10px;
+   }
+   .sell{
+    border-radius: 50px;
+   text-align: center;
+        border-top: 5px solid#5777d1;
+        border-bottom: 5px solid#66e933; 
+        border-left: 5px solid#e0d03e;
+        border-right:5px solid#e4775c;
+    font-size:23px;
+    font-weight: 600;
+    color: black;
+    width: 100px;
+     text-decoration:none; 
+     cursor: pointer;
+     margin-left: 10px;
+   }
+   .dropdown-toggle{
+    border: none;
+    outline: 0;
+    margin-left: 30px;
+    background-color: #fff;
+    font-weight: normal;
+    font-size: 18px;
+
+   }
+   .dropdown-toggle:hover{
+    color: #5777d1;
+   }
+   .dropdown a{
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: normal;
+   }
+   .dropdown a:hover{
+    color: #5777d1;
+   }
+
+ 
+  .list li{
+    display: inline-block;
+    padding-right: 15px;
+    font-size: 0.5cm;
+    
+  }
+  .list li:hover{
+cursor: pointer;
+color: blue;
+  }
+  .card-pic{
+    max-width: 200px;
+    display: inline-block;
+   min-width: 170px;
+   margin-bottom: 2%;
+
+
+  }
+  
+  .slide {
+  width: 100%;
+  
+}
+
+  .containerr{
+    padding: 15px;
+  }
+
+   .container{
+   width: 100%;
+    display: flex;
+    margin-top: 1%;
+    margin-left: 10%;
+    border: 1px solid #ffffff;
+    box-shadow: 3px 3px 1px #e7e7e7;
+
+   }
+
+   .ok{
+    border: 1px solid #fdf6f6;
+    box-shadow: 5px 3px 3px #f5f3f3;
+   }
+
+.containerrrr {
+  padding: 20px;
+  background-color: rgb(243, 243, 243);
+  width: 100%;
+}
+
+.containerrrr img {
+  max-width: 100%;
+  height: auto;
+}
+
+.footer-1 ul li{
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.footer{
+  background-color: rgb(231, 231, 231);
+width: 100%;
+  font-size: 15px;
+  text-align: center;
+}
+  
+
+
+.footer-1{
+  cursor: pointer;
+}
+.zoom{
+  cursor: pointer;
+}
+.zoom:hover{
+ box-shadow: 2px black;
+}
+
+.colr{
+  color: gray;
+}
+.colr:hover{
+  color: black;
+}
+
+.bottmdiv{
+  background-color:rgb(15, 46, 56);
+  text-align: end;
+  width: 100%;
+}
+
+
+
+@media (min-width: 992px) {
+  .containerrrr .row {
+      justify-content: space-between;
+  }
+
+  .containerrrr p {
+      font-size: 1.2rem;
+  }
+
+  .containerrrr img {
+      width: auto; 
+  }
+
+  .containerrrr .col-lg-4 img {
+      width: 80px; 
+  }
+}
+
+@media (max-width: 991px) {
+  .containerrrr .row {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .containerrrr .col-md-4 img {
+      margin: 10px 0;
+  }
+  .apps-images{
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+
+
+@media (max-width:992px) {
+  .footer{
+justify-content: space-between;
+  }
+}
+
+@media (max-width:768px) {
+  .footer{
+flex-direction: column;
+text-align: center;
+  }
+}
+
+
+
+
+ 
+
+
+
+
+
+  
+
+
+  
+ 
+
+
+
+
+
+ 
+
+
